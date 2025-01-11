@@ -83,10 +83,46 @@ button {
     margin-top: 20px;
 }
 
-
+.partners {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.section-title-sm {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 1.5rem;
+}
 .section-title {
     font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 36px;
 }
+.partners-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.client-image {
+    width: 120px;
+    object-fit: contain; 
+}
+
+.about-section {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+  .about-section p {
+    line-height: 1.6;
+    font-weight: 200;
+    font-size: 14px;
+  }
+  .about-section-text {
+    padding: 0px 42px;
+  }
+  .about-section-img {
+    width: 580px;
+  }
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
