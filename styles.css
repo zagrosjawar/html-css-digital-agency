@@ -196,9 +196,45 @@ button {
     font-size: 48px;
     }
 
+/*testimonial section*/
+.testimonial-section {
+    padding: 60px 0px;
+  }
 
+  .testimonial-content{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .testimonial-card {
+    width: 320px;
+    background-color: #EEF5FF;
+    padding: 32px;
+    border-radius: 24px;
+  }
 
+  .testimonial-card h4 {
+    font-size: 18px;
+    font-family: "Bricolage Grotesque", sans-serif;
+    padding-bottom: 4px;
+  }
 
+  .testimonial-card img {
+    width: 60px;
+    margin-bottom: 8px;
+  }
+  .testimonial-card-subtitle{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .testimonial-card-description {
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 20px;
+    line-height: 1.6;
+  }
+
+/* team section */
 
 
 /* Responsive */
