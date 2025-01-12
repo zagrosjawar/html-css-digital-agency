@@ -235,6 +235,40 @@ button {
   }
 
 /* team section */
+.team-section {
+    padding: 60px 0px;
+  }
+  .team-content{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+   }
+   .team-card{
+    width: 260px;
+   }
+   .team-card-main-img{
+    width: 100%;
+    margin-bottom: 10px;
+    }
+    .team-card p {
+        color: #6B7280;
+        font-size: 14px;
+        font-weight: 400;
+      }
+      .team-card h5 {
+        font-size: 20px;
+        font-family: "Bricolage Grotesque", sans-serif;
+        padding-bottom: 4px;
+      }
+      .team-card-socials {
+        margin-top: 14px;
+        display: flex;
+        gap: 10px;
+      }
+      .team-card-socials img {
+        width: 32px;
+      }
+
 
 
 /* Responsive */
