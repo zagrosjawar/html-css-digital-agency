@@ -930,9 +930,12 @@ footer{
         object-fit: cover;
     }
     .cta-image {
-        height: 700px;
+        height: 436px;
         object-fit: cover;
     }
+   .cta-content-wrapper {
+    top : 72px;
+   }
    
     
     
