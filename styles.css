@@ -818,14 +818,122 @@ footer{
 
 /* Medium devices (tablets, up to 991px) */
 @media (min-width: 768px) and (max-width: 991px) {
+    .partners-content {
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .hero-image {
+        height: 700px;
+        object-fit: cover;
+    }
+    .about-section {
+        flex-wrap: wrap;
+    }
+    .wcu-content {
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .testimonial-content {
+    gap: 20px;
+    }
+    .team-content {
+        gap: 20px;
+    }
+    .cta-image {
+        height: 700px;
+        object-fit: cover;
+    }
+    .cta-content-wrapper {
+        padding: 32px;
+    }
+    .cta-content {
+        padding: 32px;
+        gap: 20px;
+    }
+    .cta-form {
+        width: 75%;
+    }
+    .cta-form-section {
+        gap: 20px;
+        flex-direction: column;
+        width: 100%;
+    }
+    .cta-form-inputs input, 
+    .cta-form-section textarea {
+            width: 100%;
+    }
 
 }
+
+
+
+
+
+
+
+
 
 /* Large devices (small desktops, up to 1199px) */
 @media (min-width: 992px) and (max-width: 1199px)  {
+    .hero-image {
+        height: 650px;
+        object-fit: cover;
+    }
+    .about-section {
+        flex-wrap: wrap;
+    }
+    .wcu-content {
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .testimonial-content {
+    gap: 20px;
+    }
+    .team-content {
+        gap: 20px;
+    }
+    .cta-image {
+        height: 652px;
+        object-fit: cover;
+    }
+    .cta-content-wrapper {
+        padding: 32px;
+        top: -12px;
+    }
+    .cta-content {
+        padding: 32px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cta-form {
+        width: 75%;
+    }
+    .cta-form-section {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .cta-form-inputs {
+        flex-direction: column;
+    }
+    .cta-form-inputs input, 
+    .cta-form-section textarea {
+            width: 100%;
+    }
 
 }
-@media (max-width: 1399px) {
 
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+    .hero-image {
+        height: 700px;
+        object-fit: cover;
+    }
+    .cta-image {
+        height: 700px;
+        object-fit: cover;
+    }
+   
+    
+    
 }
-
